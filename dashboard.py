@@ -2,9 +2,13 @@ import streamlit as st
 import yfinance as yf
 import pandas as pd
 
+# import csv
+
 st.title("Stock Comparison Dashboard")
 
-tickers = ('TSLA', 'AAPL', 'MSFT', 'GOOG', 'AMZN', 'META', 'V', 'NVDA')
+#tickers = ('TSLA', 'AAPL', 'MSFT', 'GOOG', 'AMZN', 'META', 'V', 'NVDA', 'UNH' 'TSM', 'JNJ', 'XOM', 'WMT', 'PG', 'JPM', 'BAC', 'MA', )
+tickers = ('BTC-USD', 'GBP=X')
+
 st.write("With support for over 20 stocks, the Stock Comparsion Dashboard can graph multiple stocks' cumulative and relative returns.")
 
 dropdown = st.multiselect('Pick your stocks', tickers)
