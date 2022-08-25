@@ -1,19 +1,21 @@
+from datetime import timedelta
 import streamlit as st 
 import yfinance as yf
 import pandas as pd
-#import csv
+
+
 
 from tickers import tickers
 
 
-st.title("Stock Comparison")
+st.title("Stock Comparison Dashboard")
 
 
-st.write("With support for stocks in the NYSE and NASDAQ, and select currency and cryptocurrency exchange rate, use Stock Comparsion to graph their cumulative and relative returns.")
+st.write("With support for stocks in the NYSE and NASDAQ, and select currency and cryptocurrency exchange rate, use the Stock Comparsion Dashboard to graph their cumulative and relative returns.")
 
-dropdown = st.multiselect('Pick your stocks/currency/cryptocurrency', tickers)
+dropdown = st.multiselect('Pick your stocks/currencies/cryptocurrencies', tickers)
 
-#change to last years's date
+
 start = st.date_input('Start Date', value = pd.to_datetime('01/01/2022'))
 end = st.date_input('End Date', value = pd.to_datetime('today'))
 

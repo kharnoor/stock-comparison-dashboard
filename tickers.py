@@ -1,4 +1,4 @@
-tickers = ("AAPL","MSFT","GOOG","AMZN","TSLA","BRK-A","UNH","META","NVDA","JNJ","V","BTC-USD","ETH-USD","EUR=X","GBP=X","CAD=X","INR=X","JPY=X","CHN=X",
+tickers = ("AAPL","MSFT","GOOG","AMZN","TSLA","EUR=X","GBP=X","BTC-USD","ETH-USD","BRK-A","UNH","META","NVDA","JNJ","V","CAD=X","INR=X","JPY=X","CHN=X",
 "KRW=X",
 "CHF=X",
 "XOM",
