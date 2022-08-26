@@ -1,6 +1,6 @@
 # Stock Comparison Guide
 
-
+![](https://img.shields.io/codefactor/grade/github/kharnoor/stock-comparison-dashboard/main)
 ![](https://img.shields.io/github/languages/code-size/kharnoor/stock-comparison-dashboard)
 
 ## About
@@ -39,6 +39,7 @@ git clone git@github.com:kharnoor/stock-comparison-dashboard.git
 cd stock-comparison-dashboard/
 streamlit run dashboard.py
 ```
+## License
 
 
 

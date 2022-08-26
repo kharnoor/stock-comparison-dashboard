@@ -36,8 +36,6 @@ if len(dropdown) == 1:
     st.line_chart(df)
 
 if len(dropdown) > 1:
-    #df = yf.download(dropdown, start, end) ['Adj Close']
-    
     df = relativeReturns(yf.download(dropdown, start, end) ['Adj Close'])
     st.header("Relative Returns of {}".format(dropdown))
     st.write("Relative returns present the returns on an investment compared to a benchmark. Because the data are on the same axis, the Relative Returns graph makes comparing perfomances of multiple stocks easier.")
