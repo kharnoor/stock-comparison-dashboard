@@ -10,7 +10,7 @@ from tickers import tickers
 st.title("Stock Comparison Dashboard")
 
 
-st.write("With support for stocks in the NYSE and NASDAQ, and select currency and cryptocurrency exchange rate, use the Stock Comparsion Dashboard to graph their cumulative and relative returns.")
+st.write("With support for stocks in the NYSE and NASDAQ, and select currency and cryptocurrency exchange rates, the Stock Comparison Dashboard graphs cumulative and relative returns.")
 
 dropdown = st.multiselect('Pick your stocks/currencies/cryptocurrencies', tickers)
 
