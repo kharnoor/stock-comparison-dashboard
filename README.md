@@ -4,6 +4,8 @@
 ![](https://img.shields.io/github/languages/code-size/kharnoor/stock-comparison-dashboard)
 ![](https://img.shields.io/github/license/kharnoor/stock-comparison-dashboard)
 
+[screen-capture.webm](https://user-images.githubusercontent.com/39896520/186988189-af9d1b7a-f534-4231-9756-dbb749c09f80.webm)
+
 ## About
 The Stock Comparison Dashboard graphs cumulative and relative returns of over 9000 stocks listed on the NYSE (such as ORCL and JPM) and NASDAQ (such as AAPL and META), along with select currency and cryptocurrency exchange rates (such as BTC-USD and GBP-USD), to view and compare their performance over a selected time.
 
